@@ -41,6 +41,7 @@ h1 {
 }
 .book {
   border-right: 5px solid red;
+  background: url('llibre.png')
 }
 #article {
   border-right: 5px solid green;

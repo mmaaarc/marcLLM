@@ -45,7 +45,7 @@ h1 {
 }
 .article {
   border-right: 5px solid green;
-  background: url('images/articles.png')
+  background: url('images/articles')
 }
 #footer {
   font-size: 0.5em;

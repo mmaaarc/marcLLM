@@ -43,7 +43,7 @@ h1 {
   border-right: 5px solid red;
   background: url('images/llibres.png')
 }
-#article {
+.article {
   border-right: 5px solid green;
   background: url('images/articles.png')
 }

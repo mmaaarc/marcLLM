@@ -41,11 +41,11 @@ h1 {
 }
 .book {
   border-right: 5px solid red;
-  background: url('llibre.png')
+  background: url('images/llibres.png')
 }
 #article {
   border-right: 5px solid green;
-  background: url('articles.png')
+  background: url('images/articles.png')
 }
 #footer {
   font-size: 0.5em;

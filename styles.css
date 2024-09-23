@@ -17,6 +17,10 @@ div {
   position: absolute;
   left: 50%;
   z-index: 100;
+
+#hola {
+    background: url('images/articles.png') top left no-repeat;
+
 }
 h1 {
   text-align: center;

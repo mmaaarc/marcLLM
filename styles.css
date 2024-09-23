@@ -17,10 +17,14 @@ div {
   position: absolute;
   left: 50%;
   z-index: 100;
-
+}
 #hola {
-    background: url('images/articles.png') top left no-repeat;
-
+  background: url('images/articles.png') top left no-repeat;
+  height: 100px; /* Ajusta la altura según lo necesites */
+  width: 100px;  /* Ajusta el ancho según lo necesites */
+  margin: 20px auto; /* Centra el div */
+}
+  
 }
 h1 {
   text-align: center;

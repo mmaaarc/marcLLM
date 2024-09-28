@@ -7,7 +7,7 @@ body {
 
 /* Background image */
 #bggraphic {
-    background-image: url('path-to-pen-image.jpg'); /* Add the background image of the pen */
+    background-image: url('images/pen.png'); /* Add the background image of the pen */
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
@@ -46,17 +46,17 @@ body {
 
 /* Different icons for each type of reference */
 cite#article::before {
-    content: url('imatges/articles.png');
+    content: url('images/articles.png');
     margin-right: 10px;
 }
 
 cite.book::before {
-    content: url('path-to-book-icon.png');
+    content: url('images/llibres.png');
     margin-right: 10px;
 }
 
 cite.website::before {
-    content: url('path-to-website-icon.png');
+    content: url('images/web.png');
     margin-right: 10px;
 }
 

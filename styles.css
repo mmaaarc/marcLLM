@@ -27,6 +27,7 @@ h1 {
   margin-bottom: 30px;
   url('images/headbg.png') top left repeat;
   padding: 80px 0;
+  color: red;  /* Red color for the "REFERENCES" title */
 }
 #references cite {
   margin: 1em 0 0 3em;
@@ -34,18 +35,22 @@ h1 {
   display: block;
   font-style: normal;
   padding-right: 3px;
+  font-size: 1.2em;  /* Slightly larger font for visibility */
 }
 .website {
   border-right: 5px solid blue;
   background: url('images/web.png') no-repeat right center;
+  padding-right: 25px;  /* Ensure padding leaves room for the icon */
 }
 .book {
   border-right: 5px solid red;
   background: url('images/llibres.png') no-repeat right center;
+  padding-right: 25px;  /* Ensure padding leaves room for the icon */
 }
 .article {
   border-right: 5px solid green;
   background: url('images/articles.png') no-repeat right center;
+  padding-right: 25px;  /* Ensure padding leaves room for the icon */
 }
 #footer {
   font-size: 0.5em;

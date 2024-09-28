@@ -1,34 +1,82 @@
 body {
-    background: url('images/gradbg.jpg') no-repeat top left; /* Asegúrate de que la imagen esté en la carpeta correcta */
-    background-size: cover; /* Esto asegura que la imagen cubra toda el área */
-    color: #000;
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
     margin: 0;
     padding: 0;
-    font-family: Verdana, Arial, sans-serif;
-    font-size: 1em;
 }
 
-h1 {
+/* Background image */
+#bggraphic {
+    background-image: url('path-to-pen-image.jpg'); /* Add the background image of the pen */
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+/* Header Styles */
+#header {
     text-align: center;
-    text-transform: uppercase;
-    font-size: 5em;
-    margin-bottom: 30px;
-    color: red; /* Color rojo para el título "REFERENCES" */
+    background: linear-gradient(to bottom, #b3e5fc, #e0f7fa); /* Gradient background */
+    padding: 20px;
 }
 
-/* Asegúrate de tener estas clases para los iconos */
-.website {
-    border-right: 5px solid blue;
-    background: url('images/web.png') no-repeat right center;
-    padding-right: 25px; /* Espacio para el icono */
+#header h1 {
+    color: red;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
 }
-.book {
-    border-right: 5px solid red;
-    background: url('images/llibres.png') no-repeat right center;
-    padding-right: 25px; /* Espacio para el icono */
+
+/* References */
+#references {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
 }
-.article {
-    border-right: 5px solid green;
-    background: url('images/articles.png') no-repeat right center;
-    padding-right: 25px; /* Espacio para el icono */
+
+#references cite {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Different icons for each type of reference */
+cite#article::before {
+    content: url('path-to-article-icon.png');
+    margin-right: 10px;
+}
+
+cite.book::before {
+    content: url('path-to-book-icon.png');
+    margin-right: 10px;
+}
+
+cite.website::before {
+    content: url('path-to-website-icon.png');
+    margin-right: 10px;
+}
+
+/* Footer */
+#footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #b3e5fc;
+    color: #333;
+}
+
+#footer p {
+    margin: 0;
+}
+
+#footer a {
+    color: #1976d2;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: underline;
 }

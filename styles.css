@@ -46,7 +46,7 @@ body {
 
 /* Different icons for each type of reference */
 cite#article::before {
-    content: url('path-to-article-icon.png');
+    content: url('imatges/articles.png');
     margin-right: 10px;
 }
 

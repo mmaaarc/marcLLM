@@ -29,11 +29,11 @@ h1 {
   padding: 80px 0;
 }
 #references cite {
-  margin: 1em 0 0 3em;
-  text-indent: -3em;
+  margin: 0 0 1em 2em;
+  text-indent: -2em;
   display: block;
   font-style: normal;
-  padding-right: 3px;
+  line-height: 1.5em;
 }
 .website {
   border-right: 5px solid blue;
@@ -59,11 +59,4 @@ h1 {
 #footer a:hover{
   text-decoration: underline;
 }
-h1.references-title {
-  text-align: center;
-  font-size: 4em;
-  color: red;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  font-weight: bold;
-}
+

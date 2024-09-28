@@ -1,27 +1,22 @@
 body {
-  background: #fff url('images/gradbg.jpg') top left repeat-x;
-  color: #000;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-family: Verdana, Arial, sans-serif;
-  font-size: 1em;
+    background: url('images/gradbg.jpg') no-repeat top left; /* Asegúrate de que la imagen esté en la carpeta correcta */
+    background-size: cover; /* Esto asegura que la imagen cubra toda el área */
+    color: #000;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1em;
 }
+
 h1 {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 5em;
-  margin-bottom: 30px;
-  color: red; /* Color rojo para el título "REFERENCES" */
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 5em;
+    margin-bottom: 30px;
+    color: red; /* Color rojo para el título "REFERENCES" */
 }
-#references cite {
-  margin: 1em 0 0 3em;
-  text-indent: -3em;
-  display: block;
-  font-style: normal;
-  font-size: 1.2em; /* Fuente ligeramente más grande */
-}
-/* Clases para iconos */
+
+/* Asegúrate de tener estas clases para los iconos */
 .website {
     border-right: 5px solid blue;
     background: url('images/web.png') no-repeat right center;

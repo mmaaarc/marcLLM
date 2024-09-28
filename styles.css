@@ -46,17 +46,17 @@ body {
 
 /* Different icons for each type of reference */
 cite#article::before {
-    content: url('images/articles.png');
+    content: url('/images/articles.png');
     margin-right: 10px;
 }
 
 cite.book::before {
-    content: url('images/llibres.png');
+    content: url('/images/llibres.png');
     margin-right: 10px;
 }
 
 cite.website::before {
-    content: url('images/web.png');
+    content: url('/images/web.png');
     margin-right: 10px;
 }
 

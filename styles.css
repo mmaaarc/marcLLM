@@ -1,80 +1,82 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #e0f7fa;
     margin: 0;
     padding: 0;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-    background-color: #ffffff;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.title {
-    font-size: 48px;
-    color: #E74C3C;
-    text-align: center;
-    margin-bottom: 30px;
-    position: relative;
-}
-
-.title::after {
-    content: '';
-    display: block;
-    width: 60px;
-    height: 3px;
-    background-color: #E74C3C;
-    margin: 10px auto;
-}
-
-.references {
-    list-style: none;
-    padding: 0;
-}
-
-.references li {
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 15px;
-    position: relative;
-    padding-left: 40px;
-}
-
-.references li::before {
-    content: '';
-    width: 24px;
-    height: 24px;
-    position: absolute;
-    left: 0;
-    top: 5px;
-    background-size: contain;
+/* Background image */
+#bggraphic {
+    background-image: url('images/pen.png'); /* Add the background image of the pen */
     background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    height: 150px;
+    margin-bottom: 20px;
 }
 
-.references li.icon1::before {
-    background-image: url('/images/articles.png');
+/* Header Styles */
+#header {
+    text-align: center;
+    background: linear-gradient(to bottom, #b3e5fc, #e0f7fa); /* Gradient background */
+    padding: 20px;
 }
 
-.references li.icon2::before {
-    background-image: url('/pen/png');
+#header h1 {
+    color: red;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
 }
 
-.references li.icon3::before {
-    background-image: url('/images.png.png');
+/* References */
+#references {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
 }
 
-.references li.icon4::before {
-    background-image: url('icon4.png');
+#references cite {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #333;
 }
 
-a {
-    color: #3498DB;
+/* Different icons for each type of reference */
+cite#article::before {
+    content: url('/images/articles.png');
+    margin-right: 10px;
+}
+
+cite.book::before {
+    content: url('/images/llibres.png');
+    margin-right: 10px;
+}
+
+cite.website::before {
+    content: url('/images/web.png');
+    margin-right: 10px;
+}
+
+/* Footer */
+#footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #b3e5fc;
+    color: #333;
+}
+
+#footer p {
+    margin: 0;
+}
+
+#footer a {
+    color: #1976d2;
     text-decoration: none;
 }
 
-a:hover {
+#footer a:hover {
     text-decoration: underline;
 }

@@ -41,7 +41,7 @@ h1 {
 }
 .article {
   border-right: 5px solid green;
-  background: url('images/articles.png') right top no-repeat;
+  background: url('images/articles.png') top left repeat;
   padding-left:30px
 }
 #footer {

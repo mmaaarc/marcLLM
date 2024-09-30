@@ -35,6 +35,7 @@ h1 {
 }
 .website {
   border-right: 5px solid blue;
+  background: url('images/web.png') top left repeat;
 }
 .book {
   border-right: 5px solid red;
